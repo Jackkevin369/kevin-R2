@@ -18,6 +18,16 @@
   
 </head>
 
+  <!-- 上传表单 -->
+<div id="upload-form-container" class="mt-8">
+  <form id="upload-form" class="space-y-4">
+    <input type="file" id="file" multiple accept="image/*" class="hidden">
+    <button type="button" id="trigger-upload" class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg">
+      选择图片
+    </button>
+    <div id="result" class="mt-4 text-white"></div>
+  </form>
+</div>
 
 <body class="bg-cover bg-center bg-no-repeat font-sans flex flex-col min-h-screen" style="background-image: url('images/background.jpeg');">
 
